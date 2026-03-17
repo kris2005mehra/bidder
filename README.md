@@ -59,3 +59,41 @@
 | **Database** | `MongoDB` | Non-relational schema for high-speed metadata retrieval. |
 
 ---
+## 🌟 Features
+
+### Bidder Panel
+- Secure registration and login.
+- Browse active auctions with live countdown timers.
+- Place bids using assigned credits.
+- Receive notifications when outbid or when an auction is won.
+- Track credit balance and personal bidding history.
+
+### Admin Panel
+- Create and manage auction listings with title, description, image, start & end time, and minimum bid.
+- Assign and manage bidding credits for registered bidders.
+- Monitor live bids in real time.
+- Close auctions and automatically declare winners.
+- View bidding reports, auction history, and user activity insights.
+
+### Credits System
+- Admin assigns a fixed number of credits to each bidder.
+- Credits are used to place bids and deducted when winning.
+- Non-winning bids return credits to the bidder’s balance.
+
+### Unique Feature: Bid Strategy Intelligence System
+- **Auction Intensity Meter:** Displays real-time competitiveness of an auction.
+- **Winning Probability Indicator:** Estimates the chance of winning based on current bids and timing.
+- Helps bidders make informed decisions during peak activity.
+
+---
+
+## ⚠️ Known Limitations
+- Currently supports only a fixed number of credits per bidder.
+- Notifications rely on Firebase Cloud Messaging and may have slight delays.
+- Real-time bidding may experience minor latency in large-scale deployments.
+- No integration with real payment gateways for credits yet.
+
+---
+
+## 🔗 Live Deployment Link
+https://bidder-eight.vercel.app/
