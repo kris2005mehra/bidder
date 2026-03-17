@@ -97,3 +97,9 @@
 
 ## 🔗 Live Deployment Link
 https://bidder-eight.vercel.app/
+
+---
+
+<div align="center">
+   Made With ❤️ By Kris
+</div>
